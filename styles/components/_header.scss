@@ -36,10 +36,8 @@ header {
         .textos-home{
             max-width: 464px;
             h1{
-                font-size: 42px;
-                color: variaveis.$cor-primaira;
+                @include mixins.ff-fs-color(variaveis.$ft-titulos, 42px, variaveis.$cor-primaira);
                 margin-bottom: 2rem;
-                font-family: variaveis.$ft-titulos;
                 line-height: 60px;
                 span{
                     color: variaveis.$cor-secundaria;
@@ -50,10 +48,8 @@ header {
                 width: 280px;
                 height: 66px;
                 border-radius: 60px;
-                color: white;
-                font-family: variaveis.$ft-textos;
+                @include mixins.ff-fs-color(variaveis.$ft-textos, 22px, white);
                 font-weight: 600;
-                font-size: 22px;
                 border: none;
             }
         }
