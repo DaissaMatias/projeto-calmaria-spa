@@ -22,7 +22,7 @@ header {
 
             a {
                 text-decoration: none;
-                @include mixins.ff-fs-color(variaveis.$ft-textos, 1rem, variaveis.$cor-primaira);
+                @include mixins.ff-fs-color(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
                 font-weight: 500;
             }
         }
@@ -36,7 +36,7 @@ header {
         .textos-home{
             max-width: 464px;
             h1{
-                @include mixins.ff-fs-color(variaveis.$ft-titulos, 42px, variaveis.$cor-primaira);
+                @include mixins.ff-fs-color(variaveis.$ft-titulos, 42px, variaveis.$cor-primaria);
                 margin-bottom: 2rem;
                 line-height: 60px;
                 span{
