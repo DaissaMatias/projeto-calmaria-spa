@@ -32,6 +32,9 @@ header nav ul a {
   color: #0C0421;
   font-weight: 500;
 }
+header nav ul a:hover {
+  font-weight: 800;
+}
 header #home {
   max-width: 1040px;
   margin: 0 auto;
@@ -63,6 +66,10 @@ header #home .textos-home .btn-main {
   color: white;
   font-weight: 600;
   border: none;
+}
+header #home .textos-home .btn-main:hover {
+  background-color: #85A0FF;
+  color: #0C0421;
 }
 header #home .img-home {
   max-width: 474px;
@@ -102,4 +109,32 @@ header #home .img-home img {
 }
 #nosso-espaco .detalhes:nth-child(2) {
   flex-direction: row-reverse;
+}
+
+#servico {
+  background: linear-gradient(180deg, #e8f5c8 0%, #FFFFFF 96.87%);
+  padding: 5rem 0;
+}
+#servico .cards {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 1.5rem;
+}
+#servico .cards .card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 3rem;
+}
+#servico .cards .card-titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.6rem;
+  color: #0C0421;
+}
+#servico .cards .card-texto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
 }/*# sourceMappingURL=styles.css.map */

@@ -24,6 +24,9 @@ header {
                 text-decoration: none;
                 @include mixins.ff-fs-color(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
                 font-weight: 500;
+                &:hover{
+                    font-weight: 800;
+                }
             }
         }
     }
@@ -51,6 +54,10 @@ header {
                 @include mixins.ff-fs-color(variaveis.$ft-textos, 22px, white);
                 font-weight: 600;
                 border: none;
+                &:hover{
+                    background-color: variaveis.$cor-terciaria;
+                    color: variaveis.$cor-primaria;
+                }
             }
         }
         .img-home{
